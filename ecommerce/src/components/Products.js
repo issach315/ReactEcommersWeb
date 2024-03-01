@@ -69,7 +69,7 @@ function Products() {
                                         <div class="card-body">
                                             <h5 class="card-title">{product.title.substring(0,12)}...</h5>
                                             <p class="card-text lead fw-bold ">${product.price}</p>
-                                            <NavLink to={`/products/${product.id}`} class="btn btn-outline-dark">Buy Now</NavLink>
+                                            <NavLink  class="btn btn-primary "  to={`/products/${product.id}`} >Buy Now</NavLink>
                                         </div>
                                 </div>
                             </div>
